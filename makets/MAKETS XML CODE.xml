@@ -1,0 +1,259 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="RYOouoFqZUXOizVovX_u">
+    <mxGraphModel dx="3415" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="3800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="index-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;arcSize=7;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="index-header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007BFF;strokeColor=none;fontColor=#ffffff;fontSize=20;fontStyle=1;align=left;arcSize=33;" value="&amp;nbsp; &amp;nbsp;Водить.РФ" vertex="1">
+          <mxGeometry height="60" width="390" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="index-login-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=transparent;strokeColor=#ffffff;fontColor=#ffffff;strokeWidth=2;fontSize=12;" value="Войти" vertex="1">
+          <mxGeometry height="30" width="70" x="220" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="index-reg-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=transparent;strokeColor=#ffffff;fontColor=#ffffff;strokeWidth=2;fontSize=12;" value="Регистрация" vertex="1">
+          <mxGeometry height="30" width="100" x="300" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="slider-img1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CCFE0;strokeColor=none;fontColor=#ffffff;fontSize=14;align=center;" value="" vertex="1">
+          <mxGeometry height="200" width="350" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="slider-text1" parent="1" style="text;html=1;strokeColor=none;fillColor=rgba(0,0,0,0.5);align=center;verticalAlign=middle;fontColor=#ffffff;fontSize=12;" value="&amp;nbsp;Обучение вождению катеров" vertex="1">
+          <mxGeometry height="30" width="350" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dot1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#717171;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="dot2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#bbb;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="dot3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#bbb;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="230" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="dot4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#bbb;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="250" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="login-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="login-back" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6C757D;strokeColor=none;fontColor=#ffffff;fontSize=12;" value="← Назад" vertex="1">
+          <mxGeometry height="30" width="80" x="545" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="login-header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#007BFF;fontSize=22;fontStyle=1;align=center;" value="Вход в систему" vertex="1">
+          <mxGeometry height="50" width="360" x="540" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="login-sub" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#6C757D;fontSize=13;" value="Войдите в свой аккаунт" vertex="1">
+          <mxGeometry height="20" width="390" x="520" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="login-error" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=none;fontColor=#721c24;fontSize=11;align=center;" value="&amp;nbsp;Неверный логин или пароль" vertex="1">
+          <mxGeometry height="30" width="310" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="login-field1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="Логин" vertex="1">
+          <mxGeometry height="45" width="310" x="560" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="login-field2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="Пароль" vertex="1">
+          <mxGeometry height="45" width="310" x="560" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="login-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=15;fontStyle=1;" value="Войти" vertex="1">
+          <mxGeometry height="45" width="310" x="560" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="login-reg-link" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#007BFF;fontSize=12;fontStyle=1;" value="Нет аккаунта? Зарегистрироваться" vertex="1">
+          <mxGeometry height="20" width="390" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="register-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="1000" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="register-back" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6C757D;strokeColor=none;fontColor=#ffffff;fontSize=12;" value="← Назад" vertex="1">
+          <mxGeometry height="30" width="80" x="1030" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="register-header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#007BFF;fontSize=22;fontStyle=1;align=center;" value="Регистрация" vertex="1">
+          <mxGeometry height="50" width="340" x="1020" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="register-sub" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#6C757D;fontSize=12;" value="Создайте аккаунт для записи на курсы" vertex="1">
+          <mxGeometry height="20" width="390" x="1000" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-field1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="ФИО" vertex="1">
+          <mxGeometry height="40" width="310" x="1040" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-field2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="&amp;nbsp;Телефон" vertex="1">
+          <mxGeometry height="40" width="310" x="1040" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-field3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="&amp;nbsp;Email" vertex="1">
+          <mxGeometry height="40" width="310" x="1040" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-field4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="&amp;nbsp;Логин (латиница, ≥6 симв.)" vertex="1">
+          <mxGeometry height="40" width="310" x="1040" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-field5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="&amp;nbsp;Пароль (≥8 символов)" vertex="1">
+          <mxGeometry height="40" width="310" x="1040" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="register-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="Зарегистрироваться" vertex="1">
+          <mxGeometry height="45" width="310" x="1040" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="register-login-link" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#007BFF;fontSize=12;fontStyle=1;" value="Уже есть аккаунт? Войти" vertex="1">
+          <mxGeometry height="20" width="390" x="1000" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="history-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="history-header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007BFF;strokeColor=none;fontColor=#ffffff;fontSize=20;fontStyle=1;align=center;arcSize=50;" value="" vertex="1">
+          <mxGeometry height="60" width="390" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="history-lk-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CCFE0;strokeColor=none;fontColor=#007BFF;fontSize=11;fontStyle=1;" value="Мои заявки" vertex="1">
+          <mxGeometry height="30" width="90" x="60" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="history-create-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=transparent;strokeColor=#ffffff;fontColor=#ffffff;fontSize=11;" value="Новая заявка" vertex="1">
+          <mxGeometry height="30" width="90" x="160" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="history-exit-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Выйти" vertex="1">
+          <mxGeometry height="30" width="70" x="340" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="history-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#007BFF;fontSize=18;fontStyle=1;" value="История заявок" vertex="1">
+          <mxGeometry height="30" width="390" x="40" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#007BFF;fontColor=#1a2a3a;" value="" vertex="1">
+          <mxGeometry height="140" width="350" x="60" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#007BFF;fontSize=13;fontStyle=1;spacingLeft=10;" value="Заявка №1 (ID: 1)  🟢 Новая" vertex="1">
+          <mxGeometry height="20" width="350" x="60" y="1105" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card1-info" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="&amp;nbsp;Дата: 01.06.2026 10:00&lt;div&gt;&amp;nbsp;Услуга: Катер&lt;/div&gt;&lt;div&gt;&amp;nbsp;Оплата:&amp;nbsp; Банковской картой&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="350" x="60" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#28A745;fontColor=#1a2a3a;" value="" vertex="1">
+          <mxGeometry height="170" width="350" x="60" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card2-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#28A745;fontSize=13;fontStyle=1;spacingLeft=10;" value="Заявка №2 (ID: 2)  ✅ Обучение завершено" vertex="1">
+          <mxGeometry height="20" width="350" x="60" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="history-card2-info" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="&amp;nbsp;Дата: 20.05.2026 09:00&lt;div&gt;&amp;nbsp;Услуга: Круизный лайнер&lt;/div&gt;&lt;div&gt;&amp;nbsp;Оплата: Наличными&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="350" x="60" y="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="history-review-field" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#e1e8f0;fontColor=#6C757D;fontSize=11;spacingLeft=10;" value="✏️ Оставить отзыв..." vertex="1">
+          <mxGeometry height="35" width="250" x="80" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="history-review-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Отправить" vertex="1">
+          <mxGeometry height="35" width="55" x="340" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="history-footer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a2a3a;strokeColor=none;fontColor=#6C757D;fontSize=10;align=center;" value="Адрес головного офиса: г. Москва, ул. Большая Ордынка, д. 15&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(108, 117, 125), rgb(132, 139, 146));&quot;&gt;Телефон горячей линии:&amp;nbsp;+7 (495)123-45-67&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Если возникли вопросы или пожелания, позвоните нам.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="390" x="40" y="1704" as="geometry" />
+        </mxCell>
+        <mxCell id="create-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="520" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="create-header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007BFF;strokeColor=none;fontColor=#ffffff;fontSize=20;fontStyle=1;align=center;arcSize=50;" value="" vertex="1">
+          <mxGeometry height="60" width="390" x="520" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="create-lk-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=transparent;strokeColor=#ffffff;fontColor=#ffffff;fontSize=11;" value="Мои заявки" vertex="1">
+          <mxGeometry height="30" width="90" x="540" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="create-create-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CCFE0;strokeColor=none;fontColor=#007BFF;fontSize=11;fontStyle=1;" value="Новая заявка" vertex="1">
+          <mxGeometry height="30" width="90" x="640" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="create-exit-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Выйти" vertex="1">
+          <mxGeometry height="30" width="70" x="820" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="create-form-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#007BFF;fontSize=18;fontStyle=1;" value="Оформление заявки" vertex="1">
+          <mxGeometry height="30" width="390" x="520" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="create-card" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#007BFF;" value="" vertex="1">
+          <mxGeometry height="380" width="310" x="560" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="create-label1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=13;fontStyle=1;spacingLeft=10;" value="Вид транспорта" vertex="1">
+          <mxGeometry height="20" width="310" x="565" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="create-select" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="▼ Катер" vertex="1">
+          <mxGeometry height="40" width="270" x="580" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="create-label2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=13;fontStyle=1;spacingLeft=10;" value="Дата начала обучения" vertex="1">
+          <mxGeometry height="20" width="310" x="560" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="create-date" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="&amp;nbsp;01.07.2026 11:00" vertex="1">
+          <mxGeometry height="40" width="270" x="580" y="1225" as="geometry" />
+        </mxCell>
+        <mxCell id="create-label3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=13;fontStyle=1;spacingLeft=10;" value="Способ оплаты" vertex="1">
+          <mxGeometry height="20" width="310" x="560" y="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="create-payment" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;align=left;fontSize=12;spacingLeft=10;" value="▼ Наличными" vertex="1">
+          <mxGeometry height="40" width="270" x="580" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="create-submit-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=14;fontStyle=1;" value="&amp;nbsp;Отправить заявку" vertex="1">
+          <mxGeometry height="45" width="270" x="580" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#007BFF;strokeWidth=2;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="844" width="390" x="1000" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-header" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007BFF;strokeColor=none;fontColor=#ffffff;fontSize=20;fontStyle=1;align=center;arcSize=50;" value="" vertex="1">
+          <mxGeometry height="60" width="390" x="1000" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-panel-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CCFE0;strokeColor=none;fontColor=#007BFF;fontSize=11;fontStyle=1;" value="Панель админа" vertex="1">
+          <mxGeometry height="30" width="100" x="1020" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-exit-btn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Выйти" vertex="1">
+          <mxGeometry height="30" width="70" x="1300" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontColor=#007BFF;fontSize=18;fontStyle=1;" value="Панель управления" vertex="1">
+          <mxGeometry height="30" width="390" x="1000" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-filters" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#007BFF;" value="" vertex="1">
+          <mxGeometry height="60" width="310" x="1040" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-filter-status" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#e1e8f0;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="▼ Все статусы" vertex="1">
+          <mxGeometry height="30" width="130" x="1055" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-filter-sort" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#e1e8f0;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="▼ Сортировка: по ID" vertex="1">
+          <mxGeometry height="30" width="135" x="1200" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dc3545;" value="" vertex="1">
+          <mxGeometry height="160" width="310" x="1040" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card1-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#dc3545;fontSize=12;fontStyle=1;spacingLeft=10;" value="№1 | Иванов И.И. (ID: 1)  🔴 Новая" vertex="1">
+          <mxGeometry height="20" width="310" x="1040" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card1-info" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=10;spacingLeft=10;" value="&amp;nbsp;01.06.2026 10:00 |&amp;nbsp; Катер&lt;div&gt;&amp;nbsp;Предоплата QR&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="310" x="1040" y="1205" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card1-status" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="▼ Новая" vertex="1">
+          <mxGeometry height="30" width="150" x="1060" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card1-save" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Сохранить" vertex="1">
+          <mxGeometry height="30" width="110" x="1225" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffc107;" value="" vertex="1">
+          <mxGeometry height="160" width="310" x="1040" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card2-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#ffc107;fontSize=12;fontStyle=1;spacingLeft=10;" value="№2 | Петров П.П. (ID: 2)  🟡 Идет обучение" vertex="1">
+          <mxGeometry height="20" width="310" x="1040" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card2-info" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontColor=#1a2a3a;fontSize=10;spacingLeft=10;" value="&amp;nbsp;15.06.2026 14:30 |&amp;nbsp; Яхта&lt;div&gt;&amp;nbsp;Оплата картой МИР&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="310" x="1040" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card2-status" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e1e8f0;fontColor=#1a2a3a;fontSize=11;spacingLeft=10;" value="▼ Идет обучение" vertex="1">
+          <mxGeometry height="30" width="150" x="1060" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-card2-save" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28A745;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Сохранить" vertex="1">
+          <mxGeometry height="30" width="110" x="1225" y="1435" as="geometry" />
+        </mxCell>
+        <mxCell id="admin-pagination" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007BFF;strokeColor=none;fontColor=#ffffff;fontSize=12;align=center;" value="◀ 1 2 3 ▶" vertex="1">
+          <mxGeometry height="35" width="310" x="1040" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="CaqUPPoDbKJWlQ7L9FqE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a2a3a;strokeColor=none;fontColor=#6C757D;fontSize=10;align=center;" value="Адрес головного офиса: г. Москва, ул. Большая Ордынка, д. 15&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(108, 117, 125), rgb(132, 139, 146));&quot;&gt;Телефон горячей линии:&amp;nbsp;+7 (495)123-45-67&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Если возникли вопросы или пожелания, позвоните нам.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="390" x="520" y="1704" as="geometry" />
+        </mxCell>
+        <mxCell id="CaqUPPoDbKJWlQ7L9FqE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a2a3a;strokeColor=none;fontColor=#6C757D;fontSize=10;align=center;" value="Адрес головного офиса: г. Москва, ул. Большая Ордынка, д. 15&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(108, 117, 125), rgb(132, 139, 146));&quot;&gt;Телефон горячей линии:&amp;nbsp;+7 (495)123-45-67&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Если возникли вопросы или пожелания, позвоните нам.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="390" x="1000" y="1704" as="geometry" />
+        </mxCell>
+        <mxCell id="CaqUPPoDbKJWlQ7L9FqE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a2a3a;strokeColor=none;fontColor=#6C757D;fontSize=10;align=center;" value="Адрес головного офиса: г. Москва, ул. Большая Ордынка, д. 15&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(108, 117, 125), rgb(132, 139, 146));&quot;&gt;Телефон горячей линии:&amp;nbsp;+7 (495)123-45-67&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Если возникли вопросы или пожелания, позвоните нам.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="390" x="40" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Rmj3kdF2cMubfy0eN2M4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;О нас:&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="90" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Rmj3kdF2cMubfy0eN2M4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Текст ТекстТекстТекстТекстТекстТекст" vertex="1">
+          <mxGeometry height="60" width="245" x="150" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
