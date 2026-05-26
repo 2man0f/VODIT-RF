@@ -1,15 +1,24 @@
 <?php
 session_start();
-if(!isset($_SESSION['user_id'])) die('Необходимо авторизоваться');
-include 'header.php';
 
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    include('db.php');
+// Проверка авторизации
+if (!isset($_SESSION['user_id'])) {
+    die('Необходимо авторизоваться');
+}
+
+// Обработка формы ДО включения header.php — критически важно!
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    include('db.php'); // Подключаем БД только для обработки формы
+
     $date_formatted = $_POST['date'];
     $con->query("INSERT INTO request (review, date, curses, payment, user_id) VALUES ('', '$date_formatted', '{$_POST['curses']}', '{$_POST['payment']}', '{$_SESSION['user_id']}')") or die('Ошибка: ' . $con->error);
+
     header('Location: history.php');
     exit;
 }
+
+// Теперь подключаем header.php — после всех заголовков
+include 'header.php';
 ?>
 <style>
     .btn-sub { transition: background 0.2s, transform 0.1s; }
@@ -33,10 +42,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <option value="Круизный лайнер">Круизный лайнер</option>
                 <option value="Яхта">Яхта</option>
             </select>
-            
+
             <label>Дата начала обучения</label>
             <input type="datetime-local" name="date" required>
-            
+
             <label>Способ оплаты</label>
             <select required name="payment">
                 <option value="Предоплата qr">Предоплата по QR-коду</option>

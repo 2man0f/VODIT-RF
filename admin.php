@@ -1,9 +1,9 @@
 <?php
+ob_start();
 include('db.php');
 session_start();
 if(!isset($_SESSION['admin']) || !$_SESSION['admin']) die('Доступ запрещен. Только для администратора.');
 include 'header.php';
-
 // Параметры фильтрации и сортировки
 $status_filter = isset($_GET['status']) ? $_GET['status'] : '';
 $sort_by = isset($_GET['sort']) ? $_GET['sort'] : 'id';
@@ -137,4 +137,8 @@ if(!$query) die('query error: ' . $con->error);
         <?php endif; ?>
     </div>
 </div>
-<?php include 'footer.php'; ?>
+
+<?php
+ob_end_flush();
+include 'footer.php';
+?>

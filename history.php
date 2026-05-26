@@ -1,10 +1,15 @@
 <?php
 session_start();
-if(!isset($_SESSION['user_id'])) die('Чтобы посмотреть историю заявок, надо войти в аккаунт.');
-include('db.php');
-include 'header.php';
 
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
+// Проверка авторизации
+if (!isset($_SESSION['user_id'])) {
+    die('Чтобы посмотреть историю заявок, надо войти в аккаунт.');
+}
+
+// Обработка POST-запроса (обновление отзыва)
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    include('db.php'); // Подключаем БД только при обработке формы
+
     $review = mysqli_real_escape_string($con, $_POST['review']);
     $request_id = (int)$_POST['request_id'];
     $con->query("UPDATE request SET review='$review' WHERE id='$request_id' AND user_id='{$_SESSION['user_id']}'");
@@ -12,8 +17,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit;
 }
 
+include('db.php'); // Подключаем БД для отображения истории заявок
+include 'header.php';
+
+// Получаем историю заявок
 $query = $con->query("SELECT * FROM request WHERE user_id='{$_SESSION['user_id']}' ORDER BY id DESC");
-if(!$query) die('query error: ' . $con->error);
+if (!$query) {
+    die('query error: ' . $con->error);
+}
 ?>
 <style>
     .request-card { transition: transform 0.2s, box-shadow 0.2s; }
@@ -38,28 +49,32 @@ if(!$query) die('query error: ' . $con->error);
         </div>
         <div class="booking-header"><h1>История заявок</h1></div>
         <div style="clear:both;"></div>
-        <?php 
+        <?php
         $i = 0;
-        while($request = $query->fetch_assoc()) {
+        while ($request = $query->fetch_assoc()) {
             $i++;
             $status_badge = '';
-            if($request['status'] == 'Новая') $status_badge = '<span style="background:#dc3545; color:white; padding:3px 10px; border-radius:20px; font-size:12px;">Новая</span>';
-            elseif($request['status'] == 'Идет обучение') $status_badge = '<span style="background:#ffc107; color:#333; padding:3px 10px; border-radius:20px; font-size:12px;">Идет обучение</span>';
-            else $status_badge = '<span style="background:#28a745; color:white; padding:3px 10px; border-radius:20px; font-size:12px;">Обучение завершено</span>';
-            
+            if ($request['status'] == 'Новая') {
+                $status_badge = '<span style="background:#dc3545; color:white; padding:3px 10px; border-radius:20px; font-size:12px;">Новая</span>';
+            } elseif ($request['status'] == 'Идет обучение') {
+                $status_badge = '<span style="background:#ffc107; color:#333; padding:3px 10px; border-radius:20px; font-size:12px;">Идет обучение</span>';
+            } else {
+                $status_badge = '<span style="background:#28a745; color:white; padding:3px 10px; border-radius:20px; font-size:12px;">Обучение завершено</span>';
+            }
+
             $formatted_date = date('d.m.Y H:i', strtotime($request['date']));
-            
+
             echo "<div class='request-card'>
                     <h2 style='text-align:center'>Заявка №{$i} (ID: {$request['id']}) {$status_badge}</h2>
                     <b>Дата начала: </b>{$formatted_date}<br>
                     <b>Вид услуги: </b>{$request['curses']}<br>
                     <b>Тип оплаты: </b>{$request['payment']}<br>";
-            
-            if(!empty($request['review'])) {
+
+            if (!empty($request['review'])) {
                 echo "<b>Ваш отзыв: </b>{$request['review']}<br>";
             }
-            
-            if($request['status'] === 'Обучение завершено') {
+
+            if ($request['status'] === 'Обучение завершено') {
                 echo "<form method='POST' style='margin-top:15px;'>
                         <input type='hidden' name='request_id' value='{$request['id']}'>
                         <input name='review' placeholder='Отзыв об услуге' value='{$request['review']}' style='width:100%; margin-bottom:10px;'>
@@ -68,7 +83,10 @@ if(!$query) die('query error: ' . $con->error);
             }
             echo "</div>";
         }
-        if($i === 0) {echo "<div class='request-card'><p>У вас пока нет заявок</p></div>";}?>
+        if ($i === 0) {
+            echo "<div class='request-card'><p>У вас пока нет заявок</p></div>";
+        }
+        ?>
     </div>
 </div>
 <?php include 'footer.php'; ?>
