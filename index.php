@@ -7,7 +7,7 @@ include 'header.php';
 <div class = 'about'>
 <h1>О нас: </h1>
 <h3>Мы научим Вас управлять любым видом речного транспорта,</h3>
-<h3> начиная с Катеров заканчивая Баржами</h3>
+<h3>начиная с Катеров заканчивая Баржами</h3>
 
 </div>
 <div class="slideshow-container">
@@ -22,7 +22,7 @@ include 'header.php';
     </div>
     <div class="mySlides fade">
         <img src="images\img3.jpg" style="width:100%">
-        <div class="text">Баржа "Метеор"</div>
+        <div class="text">Паром "Метеор"</div>
     </div>
     <div class="mySlides fade">
         <img src="images\img4.jpg" style="width:100%">
